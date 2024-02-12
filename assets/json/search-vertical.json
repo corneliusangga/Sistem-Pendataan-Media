@@ -1,0 +1,49 @@
+{
+  "pages": [
+    {
+      "name": "Dashboard",
+      "icon": "ti-smart-home",
+      "url": "Dashboard.html"
+    },
+    {
+      "name": "Master - Media",
+      "icon": "ti-speakerphone",
+      "url": "Master-Media.html"
+    },
+    {
+      "name": "Master - Kategori Media",
+      "icon": "ti-category",
+      "url": "Master-KategoriMedia.html"
+    },
+    {
+      "name": "Master - Jenis Berita",
+      "icon": "ti-news",
+      "url": "Master-JenisBerita.html"
+    },
+    {
+      "name": "Transaction - Data",
+      "icon": "ti-article",
+      "url": "Transaction-Data.html"
+    },
+    {
+      "name": "Laporan - Transaction",
+      "icon": "ti-report",
+      "url": "Laporan-Transaction.html"
+    },
+    {
+      "name": "Laporan - Media",
+      "icon": "ti-checkup-list",
+      "url": "Laporan-Media.html"
+    },
+    {
+      "name": "Laporan - Grafik",
+      "icon": "ti-chart-bar",
+      "url": "Laporan-Grafik.html"
+    },
+    {
+      "name": "Pengaturan - User",
+      "icon": "ti-user",
+      "url": "Pengaturan-User.html"
+    }
+  ]
+}
