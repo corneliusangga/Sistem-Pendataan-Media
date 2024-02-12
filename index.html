@@ -47,7 +47,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="text-center mb-3 pt-2">Login Admin</h4>
-                        <form id="formAuthentication" action="Main.html" method="GET">
+                        <form id="formAuthentication" onSubmit="return false">
                             <div class="mb-3">
                                 <label for="email" class="form-label"> Username</label>
                                 <input type="text" class="form-control" id="email" name="email-username" placeholder="Masukkan username" autofocus />
@@ -62,7 +62,7 @@
                                 </div>
                             </div>
                             <div>
-                                <button class="btn btn-primary d-grid w-100" type="submit">Masuk</button>
+                                <button class="btn btn-primary d-grid w-100" type="button" onclick="location.href='Main.html';">Masuk</button>
                             </div>
                         </form>
                     </div>
