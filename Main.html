@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
-    <title>Laporan - Transaksi</title>
+    <title>Admin</title>
     <meta name="description" content="" />
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
@@ -24,12 +24,8 @@
     <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
     <link rel="stylesheet" href="assets/vendor/libs/node-waves/node-waves.css" />
     <link rel="stylesheet" href="assets/vendor/libs/typeahead-js/typeahead.css" />
-    <link rel="stylesheet" href="assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css" />
-    <link rel="stylesheet" href="assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css" />
-    <link rel="stylesheet" href="assets/vendor/libs/datatables-checkboxes-jquery/datatables.checkboxes.css" />
     <!-- Page CSS -->
-    <link rel="stylesheet" href="assets/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.css" />
-    <link rel="stylesheet" href="assets/vendor/libs/bootstrap-datepicker/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="assets/vendor/css/pages/page-help-center.css" />
     <!-- Helpers -->
     <script src="assets/vendor/js/helpers.js"></script>
     <script src="assets/vendor/js/template-customizer.js"></script>
@@ -103,13 +99,13 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="menu-item active open">
+                    <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons ti ti-report"></i>
                             <div>Laporan</div>
                         </a>
                         <ul class="menu-sub">
-                            <li class="menu-item active">
+                            <li class="menu-item">
                                 <a href="Laporan-Transaction.html" class="menu-link">
                                     <div>Transaction</div>
                                 </a>
@@ -227,41 +223,7 @@
                 <div class="content-wrapper">
                     <!-- Content -->
                     <div class="container-xxl flex-grow-1 container-p-y">
-                        <h4 class="fw-semibold mb-4">Laporan Data</h4>
-                        <div class="card mb-4">
-                            <div class="card-datatable table-responsive">
-                                <div id="filter-table-rekap-purchase-order" class="card-header border-bottom">
-                                    <h5 class="card-title mb-3">Filter Pencarian</h5>
-                                    <div class="row g-3">
-                                        <div class="col-12">
-                                            <div id="datepicker-filter" class="input-group input-daterange">
-                                                <input type="text" id="start-date-filter" placeholder="MM/DD/YYYY" class="form-control" />
-                                                <span class="input-group-text">sampai dengan</span>
-                                                <input type="text" id="end-date-filter" placeholder="MM/DD/YYYY" class="form-control" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <table id="table-laporan-transaksi" class="table border-top">
-                                    <thead>
-                                        <tr>
-                                            <th>No</th>
-                                            <th>Nama Media</th>
-                                            <th>Kategori Media</th>
-                                            <th>Jenis Berita</th>
-                                            <th class="cell-fit">Link Berita</th>
-                                            <th>Terbit</th>
-                                        </tr>
-                                    </thead>
-                                </table>
-                            </div>
-                            <div class="card-datatable table-responsive">
-                                <table id="table-rekap-laporan" class="table border-top">
-                                    <thead class="d-none">
-                                    </thead>
-                                </table>
-                            </div>
-                        </div>
+                        <div class="alert alert-secondary" role="alert">Selamat Datang, Administrator!</div>
                     </div>
                     <!-- / Content -->
                     <!-- Footer -->
@@ -300,11 +262,8 @@
     <script src="assets/vendor/js/menu.js"></script>
     <!-- endbuild -->
     <!-- Vendors JS -->
-    <script src="assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
-    <script src="assets/vendor/libs/bootstrap-datepicker/bootstrap-datepicker.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/laporan-transaksi.js"></script>
     <!-- Page JS -->
 </body>
 
